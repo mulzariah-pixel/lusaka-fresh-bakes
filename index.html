@@ -1,0 +1,273 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lusaka Fresh Bakes - Fresh bread, cakes and cupcakes in Lusaka, Zambia.">
+
+    <title>Lusaka Fresh Bakes | Freshly Baked with Love</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                Lusaka Fresh <span>Bakes</span>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menu-toggle"
+                    aria-label="Toggle navigation"
+                    aria-expanded="false"
+                    aria-controls="nav-links">
+                &#9776;
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+            <div class="hero-content container">
+
+                <p class="subtitle">FRESHLY BAKED EVERY DAY</p>
+
+                <h1>Made with Love.<br> Baked to Perfection.</h1>
+
+                <p>
+                    Discover delicious bread, cakes and pastries
+                    made with care in the heart of Lusaka, Zambia.
+                </p>
+
+                <a href="#products" class="btn">
+                    Explore Our Products
+                </a>
+
+            </div>
+        </section>
+
+        <!-- PRODUCTS SECTION -->
+        <section class="products section" id="products">
+            <div class="container">
+
+                <h2 class="section-title">Our Fresh Products</h2>
+
+                <p class="section-description">
+                    Delicious treats for every occasion.
+                </p>
+
+                <div class="product-grid">
+
+                    <!-- PRODUCT 1 -->
+                    <article class="product-card">
+
+                        <div class="product-image">
+    <img src="images/bread.jpg" alt="Freshly baked bread">
+</div>
+
+                        <div class="product-info">
+                            <h3>Fresh Bread</h3>
+
+                            <p>
+                                Soft, golden and freshly baked bread
+                                for your everyday meals.
+                            </p>
+
+                            <span class="price">K25.00</span>
+
+                            <a href="#contact"
+                               class="order-btn"
+                               data-product="Fresh Bread">
+                                Enquire Now
+                            </a>
+                        </div>
+
+                    </article>
+
+                    <!-- PRODUCT 2 -->
+                    <article class="product-card">
+
+                        <div class="product-image">
+    <img src="images/cake.jpg" alt="Delicious chocolate cake">
+</div>
+
+                        <div class="product-info">
+                            <h3>Chocolate Cake</h3>
+
+                            <p>
+                                Rich and delicious chocolate cake
+                                for birthdays and celebrations.
+                            </p>
+
+                            <span class="price">K150.00</span>
+
+                            <a href="#contact"
+                               class="order-btn"
+                               data-product="Chocolate Cake">
+                                Enquire Now
+                            </a>
+                        </div>
+
+                    </article>
+
+                    <!-- PRODUCT 3 -->
+                    <article class="product-card">
+
+                       <div class="product-image">
+    <img src="images/cupcake.jpg" alt="Vanilla cupcake with frosting">
+</div>
+
+                        <div class="product-info">
+                            <h3>Vanilla Cupcake</h3>
+
+                            <p>
+                                Light and fluffy vanilla cupcakes
+                                topped with delicious frosting.
+                            </p>
+
+                            <span class="price">K15.00</span>
+
+                            <a href="#contact"
+                               class="order-btn"
+                               data-product="Vanilla Cupcake">
+                                Enquire Now
+                            </a>
+                        </div>
+
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about section" id="about">
+            <div class="container">
+
+                <h2 class="section-title">About Us</h2>
+
+                <p>
+                    At Lusaka Fresh Bakes, we believe that every
+                    delicious moment begins with quality ingredients
+                    and a passion for baking.
+                </p>
+
+                <p>
+                    Our mission is to bring fresh, affordable and
+                    delightful baked products to families,
+                    businesses and communities across Lusaka.
+                </p>
+
+                <div class="about-features">
+                    <div>🌾 Quality Ingredients</div>
+                    <div>🍞 Freshly Baked</div>
+                    <div>❤️ Made with Care</div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="contact section" id="contact">
+            <div class="container">
+
+                <h2 class="section-title">Contact Us</h2>
+
+                <p class="section-description">
+                    Have a question or want to place an order?
+                    Send us an enquiry.
+                </p>
+
+                <form id="contact-form">
+
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text"
+                               id="name"
+                               name="name"
+                               placeholder="Enter your name"
+                               required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email"
+                               id="email"
+                               name="email"
+                               placeholder="Enter your email"
+                               required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="product">Select Product</label>
+
+                        <select id="product" name="product" required>
+                            <option value="">Choose a product</option>
+                            <option value="Fresh Bread">Fresh Bread</option>
+                            <option value="Chocolate Cake">Chocolate Cake</option>
+                            <option value="Vanilla Cupcake">Vanilla Cupcake</option>
+                            <option value="Other">Other Enquiry</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+
+                        <textarea id="message"
+                                  name="message"
+                                  rows="5"
+                                  placeholder="Write your message here"
+                                  required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">
+                        Send Enquiry
+                    </button>
+
+                    <p id="form-status" role="status"></p>
+
+                </form>
+
+                <div class="contact-details">
+                    <p>📍 Lusaka, Zambia</p>
+                    <p>🕒 Monday – Saturday: 07:00 – 18:00</p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+
+            <h3>Lusaka Fresh Bakes</h3>
+
+            <p>Fresh flavours. Beautiful moments.</p>
+
+            <p>&copy; 2026 Lusaka Fresh Bakes.</p>
+
+            <p>Demonstration website | Freelance Portfolio Project</p>
+
+        </div>
+    </footer>
+
+</body>
+</html>
