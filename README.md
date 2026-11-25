@@ -1,4 +1,4 @@
-
+﻿
 # Lusaka Fresh Bakes
 
 A modern, responsive bakery website developed as a
@@ -53,15 +53,15 @@ information and includes an interactive customer enquiry form.
 ## Project Structure
 
 Lusaka-Fresh-Bakes/
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-├── images/
-│   ├── bread.jpg
-│   ├── cake.jpg
-│   └── cupcake.jpg
-└── screenshots/
+â”œâ”€â”€ index.html
+â”œâ”€â”€ style.css
+â”œâ”€â”€ script.js
+â”œâ”€â”€ README.md
+â”œâ”€â”€ images/
+â”‚   â”œâ”€â”€ bread.webp
+â”‚   â”œâ”€â”€ cake.webp
+â”‚   â””â”€â”€ cupcake.webp
+â””â”€â”€ screenshots/
 
 ## How to Run the Project
 
@@ -120,3 +120,4 @@ Product prices and business information are illustrative.
 
 Frontend development completed.
 Final testing and deployment pending.
+
