@@ -550,3 +550,21 @@ button:focus-visible {
 .product-card:hover .product-image img {
     transform: scale(1.05);
 }
+/* STANDARD BUSINESS WORKING HOURS */
+
+.contact-details h3 {
+    font-family: Georgia, serif;
+    color: var(--primary);
+    font-size: 1.4rem;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.contact-details p {
+    margin-bottom: 8px;
+}
+
+.closed-day {
+    color: #b91c1c;
+    font-weight: bold;
+}

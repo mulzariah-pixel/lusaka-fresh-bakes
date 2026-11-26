@@ -106,6 +106,14 @@ No additional dependencies are required.
 Computer Science Student
 Frontend Web Developer
 
+## Business Working Hours
+
+| Day | Working Hours |
+|-----|---------------|
+| Sunday - Thursday | 07:00 - 18:00 hrs |
+| Friday | 07:00 - 16:00 hrs |
+| Saturday | Closed |
+
 ## Disclaimer
 
 This is a fictional business website created for educational
